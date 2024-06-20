@@ -22,7 +22,7 @@ a {
 	color: $l;
 	background-color: $d;
 	display: grid;
-	grid-template-columns: minmax(auto, 1fr) [main-start] min(100%, 70ch) [main-end] minmax(auto,
+	grid-template-columns: minmax(auto, 1fr) [main-start] min(95%, 70ch) [main-end] minmax(auto,
 			1fr);
 
 	.h {
@@ -42,6 +42,12 @@ a {
 .t {
 	font-size: 3rem;
 	text-decoration: none;
+	color: $l;
+
+	&:hover {
+		color: inherit;
+		background-color: inherit;
+	}
 }
 
 .u {
@@ -99,4 +105,8 @@ a {
 
 		margin-bottom: $s;
 	}
+}
+
+.e {
+	text-align: center;
 }
