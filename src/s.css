@@ -94,7 +94,7 @@ a {
 }
 
 .md {
-	>* {
+	>section>* {
 		margin-top: 1rem;
 	}
 
@@ -117,6 +117,24 @@ a {
 	pre,
 	blockquote {
 		background-color: var(--el);
+	}
+
+	ul,
+	ol {
+		/*get on li l long xxxxviii (myb xxlviii)*/
+		padding-left: 8ch;
+	}
+
+	ul {
+		list-style: disc;
+	}
+
+	ol {
+		list-style: lower-roman;
+	}
+
+	img {
+		width: 100%;
 	}
 
 	.f {
