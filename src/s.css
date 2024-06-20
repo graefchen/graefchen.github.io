@@ -23,6 +23,7 @@ p {
 
 a {
 	color: var(--ac);
+	padding: 0.2rem;
 
 	&:hover {
 		color: var(--fg);
@@ -104,10 +105,6 @@ a {
 
 	a {
 		text-decoration: underline;
-
-		&:hover {
-			background-color: inherit;
-		}
 	}
 
 	blockquote {
@@ -115,6 +112,7 @@ a {
 	}
 
 	pre,
+	code,
 	blockquote {
 		background-color: var(--el);
 	}
