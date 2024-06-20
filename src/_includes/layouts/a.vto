@@ -11,6 +11,24 @@ layout: layouts/b.vto
 <p>min read: {{ it.readingInfo.minutes }}</p>
 </div>
 </section>
+<section>
 {{content}}
+</section>
+<section>
+<nav>
+<ul class="f">{{- set previousPost = search.previousPage(url, "type=post") }}
+{{- if previousPost }}
+<li class="ls"><a href="{{ previousPost.url }}" rel="prev">
+<span>← Older post</span> <strong>{{ previousPost.title }}</strong></a></li>
+{{ /if }}
+
+{{- set nextPost = search.nextPage(url, "type=post") }}
+{{- if nextPost }}
+<li class="rs"><a href="{{ nextPost.url }}" rel="next">
+<strong>{{ nextPost.title }}</strong> <span>Newer post →</span></a></li>
+{{ /if }}
+</ul>
+</nav>
+</section>
 </article>
 

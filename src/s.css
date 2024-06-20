@@ -1,0 +1,157 @@
+@import "style/ct.css";
+@import "style/r.scss";
+
+:root {
+	--fg: #2b2b2b;
+	--bg: #ffffff;
+	--el: #0000000F;
+	--ac: #e45858;
+	--s: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fg: #fcfcfc;
+		--bg: #212121;
+		--el: #FFFFFF0F;
+	}
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: var(--ac);
+
+	&:hover {
+		color: var(--fg);
+		background-color: var(--ac);
+	}
+}
+
+.b {
+	color: var(--fg);
+	background-color: var(--bg);
+	display: grid;
+	grid-template-columns:
+		minmax(auto, 1fr) [main-start] min(95%, 60ch) [main-end] minmax(auto, 1fr);
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	min-height: 100svh;
+
+	.h {
+		grid-column: main;
+		text-align: center;
+	}
+
+	.m {
+		grid-column: main;
+
+		>* {
+			margin-top: 1.5rem;
+		}
+	}
+
+	.f {
+		grid-column: main;
+		text-align: center;
+		margin-bottom: var(--s);
+	}
+}
+
+.t {
+	font-size: 3rem;
+	text-decoration: none;
+	color: var(--fg);
+
+	&:hover {
+		color: inherit;
+		background-color: inherit;
+	}
+}
+
+.u {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	.l {
+		border-radius: 5px;
+		display: flex;
+		justify-content: space-between;
+		padding: 5px;
+		text-decoration: none;
+		color: var(--fg);
+		background-color: var(--ac);
+		transition-duration: 200ms;
+
+		&:hover {
+			transform: translateY(-2px);
+		}
+	}
+}
+
+.md {
+	>* {
+		margin-top: 1rem;
+	}
+
+	>h1 {
+		margin-top: 2.5rem;
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			background-color: inherit;
+		}
+	}
+
+	blockquote {
+		padding: var(--s);
+	}
+
+	pre,
+	blockquote {
+		background-color: var(--el);
+	}
+
+	.f {
+		display: grid;
+		grid-template-columns: [l-start] 1fr [l-end r-start] 1fr [r-end];
+
+		>.ls {
+			text-align: left;
+			grid-column: l;
+		}
+
+		>.rs {
+			text-align: right;
+			grid-column: r;
+		}
+	}
+}
+
+.s {
+	>.d {
+		color: var(--fg);
+		display: flex;
+		justify-content: start;
+		column-gap: var(--s);
+
+		& p:nth-child(-n + 2)::after {
+			content: "•";
+			padding-left: var(--s);
+			align-self: stretch;
+		}
+
+		margin-bottom: var(--s);
+	}
+}
+
+.e {
+	text-align: center;
+}
