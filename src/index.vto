@@ -1,0 +1,14 @@
+---
+layout: layouts/b.vto
+---
+
+<ul class="u">
+{{for page of search.pages("type=post", "date=desc")}}
+<li>
+<a class="l" href="{{page.url}}">
+<time datetime="{{ page.date |> date('DATETIME') }}">{{ page.date |> date('DATE') }}</time>
+<span>{{ page.title || page.url }}</span>
+</a>
+</li>
+{{/for}}
+</ul>

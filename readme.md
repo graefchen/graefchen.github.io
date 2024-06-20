@@ -1,3 +1,3 @@
 # graefchen.github.io
 
-Just my small little website.
+Just my small little webblog.

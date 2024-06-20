@@ -1,0 +1,102 @@
+@import "style/r.scss";
+
+$d: #212121;
+$l: #fcfcfc;
+$a: #e45858;
+$s: 5px;
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: $a;
+
+	&:hover {
+		color: $d;
+		background-color: $a;
+	}
+}
+
+.b {
+	color: $l;
+	background-color: $d;
+	display: grid;
+	grid-template-columns: minmax(auto, 1fr) [main-start] min(100%, 70ch) [main-end] minmax(auto,
+			1fr);
+
+	.h {
+		grid-column: main;
+		text-align: center;
+	}
+
+	.m {
+		grid-column: main;
+
+		>* {
+			margin-top: 1.5rem;
+		}
+	}
+}
+
+.t {
+	font-size: 3rem;
+	text-decoration: none;
+}
+
+.u {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	.l {
+		border-radius: 5px;
+		display: flex;
+		justify-content: space-between;
+		padding: 5px;
+		text-decoration: none;
+		color: $l;
+		background-color: $a;
+		transition-duration: 200ms;
+
+		&:hover {
+			transform: translateY(-2px);
+		}
+	}
+}
+
+.md {
+	>* {
+		margin-top: 1rem;
+	}
+
+	>h1 {
+		margin-top: 2.5rem;
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			background-color: inherit;
+		}
+	}
+}
+
+.s {
+	>.d {
+		color: $l;
+		display: flex;
+		justify-content: start;
+		column-gap: $s;
+
+		& p:nth-child(-n + 2)::after {
+			content: "•";
+			padding-left: $s;
+			align-self: stretch;
+		}
+
+		margin-bottom: $s;
+	}
+}
