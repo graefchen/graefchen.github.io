@@ -22,7 +22,7 @@ This page here will probbaly be an reference page for everything what has to do 
   - [Lightning CSS](https://lume.land/plugins/lightningcss/) - an CSS minifier plugin
   - [Minify HTML](https://lume.land/plugins/minify_html/) - an HTML minifier plugin
 
-There is no JavaScript or TypeScript that does run on a Server(aside from generatig this webpage)
-or on the Client.
+There is no JavaScript or TypeScript that does run on a server(aside from generatig this webpage)
+or on the client.
 
 This website does neither use cookies or does it store any information, appart from the IP address.
