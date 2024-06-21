@@ -1,5 +1,5 @@
 ---
-title: Writing in ATW
+title: Writing in ATW-Dialect
 date: 2024-06-21
 draft: false
 ---

@@ -19,13 +19,13 @@ layout: layouts/b.vto
 <ul class="f">{{- set previousPost = search.previousPage(url, "type=post") }}
 {{- if previousPost }}
 <li class="ls"><a href="{{ previousPost.url }}" rel="prev">
-<span>← Older post</span> <strong>{{ previousPost.title }}</strong></a></li>
+<span>← Older post</span><br><strong>{{ previousPost.title }}</strong></a></li>
 {{ /if }}
 
 {{- set nextPost = search.nextPage(url, "type=post") }}
 {{- if nextPost }}
 <li class="rs"><a href="{{ nextPost.url }}" rel="next">
-<strong>{{ nextPost.title }}</strong> <span>Newer post →</span></a></li>
+<span>Newer post →</span><br><strong>{{ nextPost.title }}</strong></a></li>
 {{ /if }}
 </ul>
 </nav>
