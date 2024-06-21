@@ -13,7 +13,7 @@ i {
 
 ul,
 ol {
-	list-style: none;
+	list-style: false;
 }
 
 h1 {
