@@ -10,12 +10,12 @@ This page here will probbaly be an reference page for everything what has to do 
 
 ## Tools used for this website:
 
-- [deno](https://deno.com) - as the JS/TS Runtime
-- [lume](https://lume.land) - as the [SSR](https://en.wikipedia.org/wiki/Static_site_generator)
-- [vento](https://vento.js.org) - as the templating language
-- [css](https://en.wikipedia.org/wiki/CSS) - as the styling language
-  - [scss](https://sass-lang.com) - was used before css
-- various [lume plugins](https://lume.land/plugins/?status=all) like:
+- [Deno](https://deno.com) - as the JS/TS Runtime
+- [Lume](https://lume.land) - as the [Static site generator](https://en.wikipedia.org/wiki/Static_site_generator)
+- [Vento](https://vento.js.org) - as the templating language
+- [CSS](https://en.wikipedia.org/wiki/CSS) - as the styling language
+  - [SCSS](https://sass-lang.com) - was used before css
+- various [Lume Plugins](https://lume.land/plugins/?status=all) like:
   - [Date](https://lume.land/plugins/date/) - a helper plugin for dates
   - [Reading Info](https://lume.land/plugins/reading_info/) - a helper plugin for reading info (like words or reading time)
   - [Code Highlight](https://lume.land/plugins/code_highlight/) - a helper plugin for code higlights
