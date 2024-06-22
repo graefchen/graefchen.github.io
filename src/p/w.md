@@ -1,7 +1,7 @@
 ---
 title: Welcome
 draft: false
-data: 2024-06-20
+date: 2024-06-20
 ---
 
 So Welcome to this website.
@@ -18,7 +18,7 @@ This page here will probbaly be an reference page for everything what has to do 
 - various [Lume Plugins](https://lume.land/plugins/?status=all) like:
   - [Date](https://lume.land/plugins/date/) - a helper plugin for dates
   - [Reading Info](https://lume.land/plugins/reading_info/) - a helper plugin for reading info (like words or reading time)
-  - [Code Highlight](https://lume.land/plugins/code_highlight/) - a helper plugin for code higlights
+  - [Code Highlight](https://lume.land/plugins/code_highlight/) - a helper plugin for syntax higlighting
   - [Lightning CSS](https://lume.land/plugins/lightningcss/) - an CSS minifier plugin
   - [Minify HTML](https://lume.land/plugins/minify_html/) - an HTML minifier plugin
 
