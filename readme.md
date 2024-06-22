@@ -45,6 +45,6 @@ Serve site:
     ├── index.vto     <- the template file layout
     ├── p             <- all post
     │   ├── _data.yml <- important data for the posts
-    │   └── *.m       <- all markdown files
+    │   └── *.md      <- all markdown files
     └── s.css         <- the main style file
 ```
