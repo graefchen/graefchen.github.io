@@ -36,7 +36,7 @@ Serve site:
 ├── readme.md         <- the readme file
 └── src               <- src directory for the website code
     ├── 404.vto       <- Error 404 template file
-    ├── _includes     <- folder for all includes for LUme
+    ├── _includes     <- folder for all includes for lume
     │   ├── layouts   <- layouts dir for all Vento layouts
     │   │   ├── a.vto <- article template file
     │   │   └── b.vto <- base template file

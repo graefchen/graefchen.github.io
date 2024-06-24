@@ -25,4 +25,4 @@ This page here will probbaly be an reference page for everything what has to do 
 There is no JavaScript or TypeScript that does run on a server(aside from generatig this webpage)
 or on the client.
 
-This website does neither use cookies or does it store any information, appart from the IP address.
+This website does neither use cookies or does it store any information.
