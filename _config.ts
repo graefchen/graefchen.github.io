@@ -5,7 +5,26 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 
-const site = lume({ src: "src/" });
+import anchor from "npm:markdown-it-anchor";
+import footnote from "npm:markdown-it-footnote";
+
+const markdown = {
+  plugins: [
+    [
+      anchor,
+      {
+        level: 1,
+        permalink: anchor.permalink.linkInsideHeader({
+          symbol: `<span aria-hidden="true">#</span>`,
+          placement: "before",
+        }),
+      },
+    ],
+    footnote,
+  ],
+};
+
+const site = lume({ src: "src/" }, { markdown });
 site
   .use(date())
   .use(readingInfo())
