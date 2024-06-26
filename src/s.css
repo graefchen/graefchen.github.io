@@ -146,6 +146,7 @@ em {
 	}
 
 	.f {
+		border-top: 1px solid var(--fg);
 		display: grid;
 		grid-template-columns: [l-start] 1fr [l-end r-start] 1fr [r-end];
 		list-style: none;
