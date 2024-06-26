@@ -1,16 +1,15 @@
 ---
-title: Writing in the ATW style
 date: 2024-06-22
-draft: true
+draft: false
 ---
+
+# Writing in the ATW style
 
 <!--
 Some working titles:
 - "Ters, Terser, ATW"
 - "From codegolf to apl"
 -->
-
-# Writing in the ATW style
 
 This here is my attempt to characterise the
 ATW([Artur Whitney](<https://en.wikipedia.org/wiki/Arthur_Whitney_(computer_scientist)>))

@@ -1,7 +1,6 @@
 ---
-title: Welcome
-draft: false
 date: 2024-06-20
+draft: false
 ---
 
 # Welcome
