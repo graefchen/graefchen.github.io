@@ -12,7 +12,7 @@ Some working titles:
 -->
 
 This here is my attempt to characterise the
-ATW([Artur Whitney](https://en.wikipedia.org/wiki/Arthur_Whitney_(computer_scientist)))
+ATW([Artur Whitney](<https://en.wikipedia.org/wiki/Arthur_Whitney_(computer_scientist)>))
 style of C.
 
 The following document will be updated over time the more I get to know about
