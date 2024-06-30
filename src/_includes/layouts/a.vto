@@ -20,7 +20,6 @@ layout: layouts/b.vto
 <li class="ls">
 <span>← Older post</span><br><a href="{{ previousPost.url }}" rel="prev"><strong>{{ previousPost.title }}</strong></a></li>
 {{ /if }}
-
 {{- set nextPost = search.nextPage(url, "type=post") }}
 {{- if nextPost }}
 <li class="rs">
