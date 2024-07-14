@@ -23,7 +23,7 @@ p {
 
 a {
 	color: var(--ac);
-	padding: 0.2rem;
+	padding: 0 0.2rem;
 	text-decoration: underline;
 
 	&:hover {
@@ -107,7 +107,8 @@ em {
 		margin-top: 1rem;
 	}
 
-	.d {
+	.d,
+	blockquote {
 		padding: var(--s);
 		border-left: var(--ac) 3px solid;
 		background: var(--el);
@@ -117,6 +118,7 @@ em {
 		margin-top: 2.5rem;
 	}
 
+	pre,
 	blockquote {
 		padding: var(--s);
 	}
@@ -125,6 +127,20 @@ em {
 	code,
 	blockquote {
 		background-color: var(--el);
+	}
+
+	pre {
+		overflow: auto;
+	}
+
+	code {
+		padding: 0% var(--s);
+		border-radius: var(--s);
+	}
+
+	pre>code {
+		padding: 0%;
+		background-color: #00000000;
 	}
 
 	ul,
