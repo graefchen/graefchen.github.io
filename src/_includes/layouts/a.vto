@@ -2,30 +2,6 @@
 layout: layouts/b.vto
 ---
 
-<article class="md">
-<section class="s">
-<div class="d">
-<p><time datetime="{{ date |> date('DATETIME') }}">{{ date |> date('HUMAN_DATE') }}</time></p>
-<p>words: {{ it.readingInfo.words }}</p>
-<p>min read: {{ it.readingInfo.minutes }}</p>
-</div>
-</section>
-<section>
+<article>
 {{content}}
-</section>
-<section>
-<nav>
-<ul class="f">{{- set previousPost = search.previousPage(url, "type=post") }}
-{{- if previousPost }}
-<li class="ls">
-<span>← Older post</span><br><a href="{{ previousPost.url }}" rel="prev"><strong>{{ previousPost.title }}</strong></a></li>
-{{ /if }}
-{{- set nextPost = search.nextPage(url, "type=post") }}
-{{- if nextPost }}
-<li class="rs">
-<span>Newer post →</span><br><a href="{{ nextPost.url }}" rel="next"><strong>{{ nextPost.title }}</strong></a></li>
-{{ /if }}
-</ul>
-</nav>
-</section>
 </article>

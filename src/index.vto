@@ -2,21 +2,10 @@
 layout: layouts/b.vto
 ---
 
-<h1>👋 Hey!</h1>
-<h1>I am <a href="https://github.com/graefchen">graef</a></h1>
-<p>I am an programmer living in germany. I am currently studying computer
-linguistics and archaeology.</p>
-<p>I <strong>love</strong> Web design, programming, archaeology, <em>terse</em>
-code &amp; cats 🐈.
-</p>
-<h1>My Blog Post's:</h1>
-<ul class="u">
-{{for page of search.pages("type=post", "date=desc")}}
-<li>
-<a class="l" href="{{page.url}}">
-<time datetime="{{ page.date |> date('DATETIME') }}">{{ page.date |> date('DATE') }}</time>
-<span>{{ page.title || page.url }}</span>
-</a>
-</li>
-{{/for}}
-</ul>
+<div class="h fs fi"><div class="l ic va"><img id="i" src="u/p.jpg"/><h1>graef
+</h1><span class="s"><i>developer, developer, developer</i></span><div class="b">
+<p>👋 Hey!</p><p>I am an programmer living in germany. I am currently studying
+computer linguistics and archaeology at the <a href="https://phil-fak.uni-koeln.de">
+university of cologne</a>.</p><p>I love Web design, programming, archaeology,
+terse code & cats 🐈.</p><nav class="ic"><a class="bt"href="/b">blog</a><a
+class="bt" href="https://github.com/graefchen">github</a></nav></div></div></div>

@@ -1,206 +1,27 @@
-@import "style/ct.css";
-@import "style/r.css";
-
-:root {
-	--fg: #2b2b2b;
-	--bg: #ffffff;
-	--el: #0000000f;
-	--ac: #e45858;
-	--s: 5px;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--fg: #fcfcfc;
-		--bg: #212121;
-		--el: #ffffff0f;
-	}
-}
-
-html {
-	font-size: 16px;
-}
-
-a {
-	color: var(--ac);
-	padding: 0 0.2rem;
-	text-decoration: underline;
-
-	&:hover {
-		color: var(--fg);
-		background-color: var(--ac);
-	}
-}
-
-strong,
-i,
-em {
-	color: var(--ac);
-}
-
-.b {
-	color: var(--fg);
-	background-color: var(--bg);
-	display: grid;
-	/* prettier-ignore */
-	grid-template-columns:
-		minmax(auto, 1fr) [main-start] min(95%, 60ch) [main-end] minmax(auto, 1fr);
-	grid-template-rows: auto 1fr auto;
-	min-height: 100vh;
-	min-height: 100svh;
-
-	.h {
-		grid-column: main;
-		text-align: center;
-	}
-
-	.m {
-		grid-column: main;
-
-		>* {
-			margin-top: 1.5rem;
-		}
-	}
-
-	.f {
-		grid-column: main;
-		text-align: center;
-		margin-bottom: var(--s);
-	}
-}
-
-.t {
-	font-size: 3rem;
-	text-decoration: none;
-	color: var(--fg);
-
-	&:hover {
-		color: inherit;
-		background-color: inherit;
-	}
-}
-
-.u {
-	margin-top: 5px;
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-
-	.l {
-		border-radius: 5px;
-		display: flex;
-		justify-content: space-between;
-		padding: 5px;
-		text-decoration: none;
-		color: var(--fg);
-		background-color: var(--ac);
-		transition-duration: 200ms;
-
-		&:hover {
-			transform: translateY(-2px);
-		}
-	}
-}
-
-.md {
-	>section>* {
-		margin-top: 1rem;
-	}
-
-	.d,
-	blockquote {
-		padding: var(--s);
-		border-left: var(--ac) 3px solid;
-		background: var(--el);
-	}
-
-	>h1 {
-		margin-top: 2.5rem;
-	}
-
-	pre,
-	blockquote {
-		padding: var(--s);
-	}
-
-	pre,
-	code,
-	blockquote {
-		background-color: var(--el);
-	}
-
-	pre {
-		overflow: auto;
-	}
-
-	code {
-		padding: 0% var(--s);
-		border-radius: var(--s);
-	}
-
-	pre>code {
-		padding: 0%;
-		background-color: #00000000;
-	}
-
-	ul,
-	ol {
-		/*get on li l long xxxxviii (myb xxlviii)*/
-		padding-left: 8ch;
-	}
-
-	ul {
-		list-style: disc;
-	}
-
-	ol {
-		list-style: lower-roman;
-	}
-
-	img {
-		width: 100%;
-	}
-
-	.f {
-		border-top: 1px solid var(--fg);
-		display: grid;
-		grid-template-columns: [l-start] 1fr [l-end r-start] 1fr [r-end];
-		list-style: none;
-		padding-left: 0;
-
-		>.ls {
-			text-align: left;
-			grid-column: l;
-		}
-
-		>.rs {
-			text-align: right;
-			grid-column: r;
-		}
-
-		a:hover * {
-			color: var(--fg);
-		}
-	}
-}
-
-.s {
-	>.d {
-		color: var(--fg);
-		display: flex;
-		justify-content: start;
-		column-gap: var(--s);
-
-		& p:nth-child(-n + 2)::after {
-			content: "•";
-			padding-left: var(--s);
-			align-self: stretch;
-		}
-
-		margin-bottom: var(--s);
-	}
-}
-
-.e {
-	text-align: center;
-}
+/* reset */
+*{margin:0;padding:0;box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6{text-wrap:balance;font-weight:500;margin: .35rem 0 .5rem}
+a,u{text-decoration:none}ul,ol{list-style:none}
+p,li{text-wrap:pretty;line-height:1.5}img{max-width:100%;object-fit:cover}
+p{margin:1rem 0;color:#333}
+html{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
+  Oxygen,Ubuntu Cantarell,'Open Sans','Helvetica Neue',sans-serif}
+/* selectors */
+::selection{background:#e458583f}
+/* elements */
+body{font-size:17px;padding:0 1rem}
+a{color:#e45858}a:hover{color:#fff;background-color:#e45858}
+.fs{min-height:100vh;width:100%}
+.ic,.va{align-items:center;display:flex;justify-content:center}
+.fi{animation:f .5s;animation-timing-function:cubic-bezier(0.55,0.085 0.68,0.53)}
+@keyframes f{0% {opacity:.1}100% {opacity:1}}
+/* classes */
+.h{display:flex;flex-direction:column}
+.l{flex:1;flex-direction:column;}.l>#i{max-width:10rem;border-radius:2rem;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);transition-duration: 200ms}
+.l>#i:hover{transform:scale(1.1)}.b{max-width:550px}.l>.s{color:#999}
+.bt{color:#333;padding:6px 12px;border:1px solid #ccc;}
+.bt:first-child{margin-left:0px}.bt+.bt{margin-left: -1px}
+.bt:first-child{border-top-left-radius:4px;border-bottom-left-radius:4px}
+.bt:last-child{border-top-right-radius:4px;border-bottom-right-radius:4px}
+.bt:hover{z-index:2;color:#333;background-color:#eee;border-color:#aaa}

@@ -35,16 +35,12 @@ Serve site:
 ├── deno.lock         <- deno lock file
 ├── readme.md         <- the readme file
 └── src               <- src directory for the website code
-    ├── 404.vto       <- Error 404 template file
-    ├── _includes     <- folder for all includes for lume
-    │   ├── layouts   <- layouts dir for all Vento layouts
-    │   │   ├── a.vto <- article template file
-    │   │   └── b.vto <- base template file
-    │   └── style     <- style dir for css/scss files
-    │       └── r.css <- css reset
     ├── index.vto     <- the template file layout
-    ├── p             <- all post
+    ├── b             <- all post
     │   ├── _data.yml <- important data for the posts
     │   └── *.md      <- all markdown files
+    ├── u             <- all post
+    │   ├── _data.yml <- data
+    │   └── *.*       <- all uploaded files
     └── s.css         <- the main style file
 ```
