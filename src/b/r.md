@@ -8,6 +8,7 @@
 - [https://32bit.cafe/websiteideas/](https://32bit.cafe/websiteideas/)
 - [https://chsmc.org/2024/05/css-animations/](https://chsmc.org/2024/05/css-animations/)
 - [https://mxb.dev/blog/old-dogs-new-css-tricks/](https://mxb.dev/blog/old-dogs-new-css-tricks/)
+- [https://joshcollinsworth.com/blog/great-transitions](https://joshcollinsworth.com/blog/great-transitions)
 
 ## most influential refs:
 
