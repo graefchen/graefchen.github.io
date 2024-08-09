@@ -3,8 +3,6 @@ title: References
 date: 2024-08-09
 ---
 
-# refs:
-
 ## features:
 
 - [https://danilafe.com/blog/blog_microfeatures/](https://danilafe.com/blog/blog_microfeatures/)
