@@ -35,11 +35,21 @@ Serve site:
 ├── deno.lock         <- deno lock file
 ├── readme.md         <- the readme file
 └── src               <- src directory for the website code
-    ├── index.vto     <- the template file layout
-    ├── b             <- all post
+    ├── _includes     <- includes directory
+    │   ├── layouts   <- layouts directory
+    │   │   ├── a.vto <- article layout
+    │   │   ├── b.vto <- base layout
+    │   │   └── p.vto <- page layout
+    │   └── templates <- templates directory
+    │       └── n.vto <- nevbar template
+    ├── a.vto         <- the about file
+    ├── b.vto         <- the blog file
+    ├── index.vto     <- the index file
+    ├── p.vto         <- the projects file
+    ├── b             <- blog directory
     │   ├── _data.yml <- important data for the posts
     │   └── *.md      <- all markdown files
-    ├── u             <- all post
+    ├── u             <- upload directory
     │   ├── _data.yml <- data
     │   └── *.*       <- all uploaded files
     └── s.css         <- the main style file
