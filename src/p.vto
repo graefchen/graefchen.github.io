@@ -2,4 +2,12 @@
 layout: layouts/p.vto
 ---
 
-<h1>✍ todo: projects </h1>
+<h1>🗂️ projects </h1>
+<h2>🕸 Web:</h2><ul>{{for pr of p.w}}{{include "templates/l.vto"{l:pr.link,
+n:pr.name,d:pr.description} }}{{/for}}</ul>
+<h2>💬 Languages:</h2><ul>{{for pr of p.l}}{{include "templates/l.vto"{l:pr.link,
+n:pr.name,d:pr.description} }}{{/for}}</ul>
+<h2>🦪 Shell:</h2><ul>{{for pr of p.s}}{{include "templates/l.vto"{l:pr.link,
+n:pr.name,d:pr.description} }}{{/for}}</ul>
+<h2>🎡 Fun:</h2><ul>{{for pr of p.f}}{{include "templates/l.vto"{l:pr.link,
+n:pr.name,d:pr.description} }}{{/for}}</ul>

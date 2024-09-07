@@ -1,0 +1,62 @@
+w:
+  - name: graefchen.github.io
+    description: 📝 My website.
+    link: https://github.com/graefchen/graefchen.github.io
+
+  - name: blog
+    description: 📖 a blog, a very simple blog
+    link: https://github.com/graefchen/blog
+
+  - name: lume-blog
+    description: 📖 A personal minimalistic blog.
+    link: https://github.com/graefchen/lume-blog
+
+  - name: 1kbpf 
+    description: 🤏 Challenge to create a good looking portfolio website under 1kB
+    link: https://github.com/graefchen/1kbpf 
+
+  - name: chisai.css
+    description: 🤏 An experimental minimal css framework
+    link: https://github.com/graefchen/chisai.css
+
+l:
+  # - name: intaglio
+  #   description: a programming language based on io, lua, ruby...
+  #   link: https://github.com/graefchen/intaglio
+
+  # - name: l
+  #   description: An experimental array programming language in lua that compiles to lua.
+  #   link: https://github.com/graefchen/l
+
+  # - name: y
+  #   description: An array programming language in c inspired by apl, j and k
+  #   link: https://github.com/graefchen/y
+s:
+  - name: config
+    description: ⚙️ My config files.
+    link: https://github.com/graefchen/config
+
+  - name: walk
+    description: 🚶 A nushell module to get around very quickly
+    link: https://github.com/graefchen/walk
+
+f:
+  - name: ROT13
+    description: 📚 A fun recreational programming task
+    link: https://github.com/graefchen/ROT13
+
+  - name: six-five-oh-two
+    description: 🖥 A bad MOS 6502 emulator
+    link: https://github.com/graefchen/six-five-oh-two
+
+  - name: Fallout4Builds
+    description: 🐕 Some of my Fallout 4 Survival Builds...
+    link: https://github.com/graefchen/Fallout4Builds
+
+  - name: embeded-lua
+    description: 🌕 Just some bad testing
+    link: https://github.com/graefchen/embeded-lua
+
+  # - name: scriptlangs
+  #   description: fun,fun,fun
+  #   link: https://github.com/graefchen/scriptlangs
