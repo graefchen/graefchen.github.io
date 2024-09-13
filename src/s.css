@@ -31,6 +31,7 @@ li{word-wrap:break-all}section{margin:2rem 0}
 /* logo */
 .l{flex:1;flex-direction:column;}.l>#i{max-width:10rem;border-radius:2rem;
   box-shadow:0 4px 8px 0 var(--bs),0 6px 20px 0 var(--bs);transition-duration: 200ms}
+@media(prefers-color-scheme:dark){.l>#i{box-shadow:0 0px 0px;}}
 .l>#i:hover{transform:scale(1.1)}.l>.d{max-width:350px}@media(prefers-color-scheme:
   dark){.l>#i{opacity:.9}.l>#i:hover{transform:scale(1);opacity:1}}
 /* tabs */
