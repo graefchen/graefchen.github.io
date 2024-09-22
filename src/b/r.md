@@ -18,6 +18,7 @@ draft: true
 
 ### homepage:
 
+- [https://solar.lowtechmagazine.com/about/](https://solar.lowtechmagazine.com/about/)
 - [https://kona.github.io/](https://kona.github.io/)
 - [https://jenil.github.io/chota/](https://jenil.github.io/chota/)
 - [https://adrg.se](https://adrg.se)
