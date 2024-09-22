@@ -28,6 +28,8 @@ Serve site:
 
 ## Files/Directorys:
 
+Some config files/directorys are ommitet.
+
 ```
 .                     <- root directory
 ├── _config.ts        <- lume configuration file
@@ -35,13 +37,16 @@ Serve site:
 ├── deno.lock         <- deno lock file
 ├── readme.md         <- the readme file
 └── src               <- src directory for the website code
+    ├── _data         <- all date
+    │   └── p.yml     <- projects yaml file
     ├── _includes     <- includes directory
     │   ├── layouts   <- layouts directory
     │   │   ├── a.vto <- article layout
     │   │   ├── b.vto <- base layout
     │   │   └── p.vto <- page layout
     │   └── templates <- templates directory
-    │       └── n.vto <- nevbar template
+    │       ├── l.vto <- list template
+    │       └── n.vto <- navbar template
     ├── a.vto         <- the about file
     ├── b.vto         <- the blog file
     ├── index.vto     <- the index file
