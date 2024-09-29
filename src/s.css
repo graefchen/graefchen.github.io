@@ -32,7 +32,7 @@ em,i{color:var(--lg)}p{color:var(--fg)}ul{list-style:disc}section{margin:2rem 0}
 /* header */
 .h{display:flex;flex-direction:column}
 /* logo */
-.l{flex:1;flex-direction:column;}
+.l{flex:1;flex-direction:column;margin:2rem 0rem}
 .l>#i{max-width:10rem;border-radius:2rem;box-shadow:0 4px 8px 0 var(--bs),
   0 6px 20px 0 var(--bs);transition-duration: 200ms}
 @media(prefers-color-scheme:dark){.l>#i{box-shadow:0 0px 0px;}}
