@@ -15,9 +15,9 @@ w:
     description: 🤏 A good looking portfolio website under 1kB
     link: https://github.com/graefchen/1kbpf 
 
-  - name: chisai.css
-    description: 🌷🤏 An experimental minimal css framework
-    link: https://github.com/graefchen/chisai.css
+  - name: chiisai
+    description: 🌸 An experimental css framework
+    link: https://github.com/graefchen/chiisai
 
 l:
   # - name: intaglio
