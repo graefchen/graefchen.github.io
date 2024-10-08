@@ -3,6 +3,10 @@ w:
     description: 📝 My website.
     link: https://github.com/graefchen/graefchen.github.io
 
+  - name: css-testing
+    description: 📝 Just an repository of me testing css style stuff and creating stuff.
+    link: https://github.com/graefchen/css-testing
+
   - name: blog
     description: 📖 a blog, a very simple blog
     link: https://github.com/graefchen/blog
