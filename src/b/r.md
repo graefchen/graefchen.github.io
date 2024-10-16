@@ -59,6 +59,7 @@ draft: true
 - [https://wryl.tech/log/2024/the-software-crisis.html](https://wryl.tech/log/2024/the-software-crisis.html)
 - [https://kayserifserif.place](https://kayserifserif.place)
 - [https://antonz.org/go-1-23/](https://antonz.org/go-1-23/)
+- [https://chreke.com/little-languages](https://chreke.com/little-languages)
 
 ## others:
 
