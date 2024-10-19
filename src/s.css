@@ -26,8 +26,8 @@ em,i{color:var(--lg)}p{color:var(--fg)}ul{list-style:disc}section{margin:2rem 0}
 /* center */
 .ic,.va{align-items:center;display:flex;justify-content:center}
 /* fade in */
-.fi{animation:f.9s;animation-timing-function:cubic-bezier(0,0,0.2,1)}
-@keyframes f{0%{opacity:.1}100%{opacity:1}}
+.fi{animation:f.2s;animation-timing-function:cubic-bezier(0,0,0.2,1)}
+@keyframes f{0%{opacity:.3}100%{opacity:1}}
 /* classes */
 /* header */
 .h{display:flex;flex-direction:column}
@@ -46,7 +46,7 @@ em,i{color:var(--lg)}p{color:var(--fg)}ul{list-style:disc}section{margin:2rem 0}
 .n>.nb>img{max-height:inherit;border-radius:20%}
 .n>.nm{display:grid;grid-auto-columns:1fr;grid-auto-flow:column}
 .n>.nm>.ni{padding:0 .5rem;align-self:center;text-align:center;color:var(--lg)}
-.n>.nm>.ni.s{color:var(--fg)}.n>.nm>.ni:hover{color:var(--fg);
+.n>.nm>.ni.s{color:var(--fg)}.n>.nm>.ni:hover{color:var(--ac);
   background-color:var(--bg)}
 /* buttons */
 /* button group */
