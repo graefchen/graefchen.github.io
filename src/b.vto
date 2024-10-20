@@ -3,7 +3,9 @@ layout: layouts/p.vto
 a: b
 ---
 
-<h1>blog </h1><ul>{{for page of search.pages("type=post", "date=desc")}}
-<li><time datetime="{{ page.date |> date('DATETIME') }}">{{ page.date |>
-date('HUMAN_DATE') }}</time> - <a href="{{page.url}}">{{ page.title || page.url
-}}</a></li>{{/for}}</ul>
+<h1>blog</h1>
+<ul>{{for page of search.pages("type=post", "date=desc")}}<li>
+  <time datetime="{{ page.date |> date('DATETIME') }}">
+  {{ page.date |> date('HUMAN_DATE') }}
+  </time> - <a href="{{page.url}}">{{ page.title || page.url}}</a>
+</li>{{/for}}</ul>

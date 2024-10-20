@@ -12,7 +12,7 @@ w:
     link: https://github.com/graefchen/chiisai
 
   - name: presentation
-    description: 👨‍🏫 An experimental sass framework for making presentations
+    description: 👨‍🏫 An experimental scss framework for making presentations
     link: https://github.com/graefchen/presentation
 
   - name: blog

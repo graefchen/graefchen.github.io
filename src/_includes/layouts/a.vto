@@ -1,9 +1,10 @@
 ---
 layout: layouts/b.vto
 ---
-<header class="m">{{ include "templates/n.vto" }}</header><main class="m ic jcl">
-<article>
-<h1>{{title}}</h1>
-<p><time datetime="{{ date |> date('DATETIME') }}">{{ date |> date('HUMAN_DATE') }}</time></p>
-{{content}}
-</article></main>
+<header class="m">{{ include "templates/n.vto" }}</header>
+<main class="m ic jcl">
+  <article>
+    <h1>{{title}}</h1><p><time datetime="{{ date |> date('DATETIME') }}">
+      {{ date |> date('HUMAN_DATE') }}</time></p>{{content}}
+  </article>
+</main>
