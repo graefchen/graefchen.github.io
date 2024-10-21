@@ -8,24 +8,12 @@ w:
     link: https://github.com/graefchen/css-testing
 
   - name: chiisai
-    description: 🌸 An experimental modern scss framework
+    description: 🍱 An modern, friendly, aesthetically minimalistic css framework
     link: https://github.com/graefchen/chiisai
 
   - name: presentation
     description: 👨‍🏫 An experimental scss framework for making presentations
     link: https://github.com/graefchen/presentation
-
-  - name: blog
-    description: 📖 a blog, a very simple blog
-    link: https://github.com/graefchen/blog
-
-  - name: lume-blog
-    description: 📖 A personal minimalistic blog.
-    link: https://github.com/graefchen/lume-blog
-
-  - name: 1kbpf 
-    description: 🤏 A good looking portfolio website under 1kB
-    link: https://github.com/graefchen/1kbpf
 
 l:
   # - name: intaglio
