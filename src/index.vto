@@ -4,7 +4,7 @@ layout: layouts/b.vto
 <header class="h fs fi">
   <div class="l ic va">
     <img id="i"width="160"height="160"src="u/p.jpg"inline/>
-    <h1>graef</h1><span><i>developer, developer, developer</i></span>
+    <h1>graef</h1><span><i id="t">developer, developer, developer</i></span>
     <div class="d tc">
       <h3>👋 Hey!</h3>
       <p>I am a programmer living in germany.<br>I am currently studying
@@ -20,3 +20,10 @@ layout: layouts/b.vto
     </nav>
   </div>
 </header>
+<script>
+b=["archaeologist","artists","builder","cat-lover","craftsman","css-enthusiast",
+"designer","developer","explorer","gamer","maker","programmer"];
+g=(a)=>a[~~(Math.random()*a.length)];
+f=(a)=>[g(a),g(a),g(a)];j=(a)=>a.join(", ");
+document.getElementById('t').innerHTML=j(f(b));
+</script>
