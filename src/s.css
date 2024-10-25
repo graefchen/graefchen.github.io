@@ -12,14 +12,15 @@ html{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
 ::selection{background:#e4585844}
 /* fg:foreground,bg:background,ac:accent,lg:light-gray,bb:button-background
    bhb:button-hover-border,bhbg:button-hover-background,bs:background-shadow */
-:root{--fg:#333;--bg:#fff;--ac:#e40909;--lg:#999;--bb:#ccc;
+:root{--fg:#333;--bg:#fff;--ac:#e45858;--lg:#999;--bb:#ccc;
   --bhb:#aaa;--bhbg:#eee;--bs:rgba(0,0,0,0.2);}
 @media(prefers-color-scheme:dark){:root{--fg:#fff;--bg:#333;--bb:#888;
   --bhbg:#222;--bhb:#fff;}}
 /* elements */
 body{font-size:17px;padding:0 1rem;color:var(--fg);background-color:var(--bg);}
-a{color:var(--ac);text-decoration:underline}time{font-style:italic}
-p{color:var(--fg)}ul{list-style:disc}section{margin:2rem 0}
+a{color:var(--ac)}a:hover{color:var(--bg);background-color:var(--ac)}
+time{font-style:italic}em,i{color:var(--lg)}p{color:var(--fg)}
+ul{list-style:disc}section{margin:2rem 0}
 /* helper/animation */
 /* full screen/text center */
 .fs{min-height:100vh;min-height:100svh;width:100%}.tc{text-align:center}
