@@ -13,7 +13,7 @@ a: a
 - 📖 & [computer linguistics](https://dh.phil-fak.uni-koeln.de/en/)
 - 📝 I’m currently learning _[Astro](https://astro.build)_,
   _[Go](https://go.dev)_, _[SolidJS](https://www.solidjs.com)_,
-  _[Vue](https://vuejs.org)_ and _[Yarn](https://classic.yarnpkg.com/en/)_
+  _[Vue](https://vuejs.org)_ and _[Yarn](https://yarnpkg.com)_
 - 🐈 I have 2 cat's (Ticky and Tine)
 <!-- Maybe add two cute pictures of them later, or via hover(likes Wikipedia) -->
 
