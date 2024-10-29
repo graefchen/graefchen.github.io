@@ -62,3 +62,4 @@ ul{list-style:disc}section{margin:2rem 0}img{height:100%;width:100%}
 /* main */
 .m{display:flex;flex-direction:column;margin: auto;max-width:550px;
   align-items:flex-start;margin-bottom:2rem}
+.img404{border-radius:20px}
