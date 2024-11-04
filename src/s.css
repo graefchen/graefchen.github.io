@@ -12,8 +12,8 @@ html{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
 ::selection{background:#e4585844}
 /* fg:foreground,bg:background,ac:accent,lg:light-gray,bb:button-background
    bhb:button-hover-border,bhbg:button-hover-background,bs:background-shadow */
-:root{color-scheme:light dark;--fg:light-dark(#333,#fff);
-  --bg:light-dark(#fff,#333);--ac:#e45858;--lg:#999;
+:root{color-scheme:light dark;--fg:light-dark(#0A0A0A,#fff);
+  --bg:light-dark(#fff,#0A0A0A);--ac:#e45858;--lg:#999;
   --bb:light-dark(#ccc,#888);--bhb:light-dark(#aaa,#fff);
   --bhbg:light-dark(#eee,#222);--bs:rgba(0,0,0,0.2)}
 /* elements */
