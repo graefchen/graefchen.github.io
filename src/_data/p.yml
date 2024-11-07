@@ -38,6 +38,10 @@ s:
     link: https://github.com/graefchen/walk
 
 f:
+  - name: film
+    description: 🎞 a photoblog generator
+    link: https://github.com/graefchen/film
+
   - name: ROT13
     description: 📚 A fun recreational programming task
     link: https://github.com/graefchen/ROT13
@@ -47,7 +51,7 @@ f:
     link: https://github.com/graefchen/six-five-oh-two
 
   - name: Fallout4Builds
-    description: 🐕 Some of my Fallout 4 Survival Builds...
+    description: 🐕 Some of my Fallout 4 Survival Builds...d
     link: https://github.com/graefchen/Fallout4Builds
 
   - name: embeded-lua
