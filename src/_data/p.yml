@@ -3,6 +3,10 @@ w:
     description: 📝 My website.
     link: https://github.com/graefchen/graefchen.github.io
 
+  - name: film
+    description: 🎞 a photoblog generator
+    link: https://github.com/graefchen/film
+
   - name: css-testing
     description: 📝 Just an repository of me testing css style stuff and creating stuff.
     link: https://github.com/graefchen/css-testing
@@ -38,6 +42,14 @@ s:
     link: https://github.com/graefchen/walk
 
 f:
+  - name: fi
+    description: 👱🏻‍♂️ Fallout 4 save Investigator
+    link: https://github.com/graefchen/fi
+
+  - name: si
+    description: ⚔️ Skyrim save Investigator
+    link: https://github.com/graefchen/si
+
   - name: film
     description: 🎞 a photoblog generator
     link: https://github.com/graefchen/film
