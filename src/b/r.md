@@ -65,6 +65,7 @@ draft: true
 
 - [https://iolanguage.org](https://iolanguage.org)
 - [https://shakti.com](https://shakti.com)
+- [https://www.thomasglopes.com](https://www.thomasglopes.com)
 
 <!-- - [https://jenil.github.io/chota/](https://jenil.github.io/chota/)
 - [https://adrg.se](https://adrg.se)
