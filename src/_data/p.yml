@@ -42,6 +42,14 @@ s:
     link: https://github.com/graefchen/walk
 
 f:
+  - name: aoc
+    description: 🎅🎄🕯️ my solutions to advent of code in a variety of different programming language
+    link: https://github.com/graefchen/aoc
+
+  - name: lc3
+    description: a tiny, fast lc3 implementation, written in c
+    link: https://github.com/graefchen/lc3
+
   - name: fi
     description: 👱🏻‍♂️ Fallout 4 save Investigator
     link: https://github.com/graefchen/fi
@@ -49,10 +57,6 @@ f:
   - name: si
     description: ⚔️ Skyrim save Investigator
     link: https://github.com/graefchen/si
-
-  - name: film
-    description: 🎞 a photoblog generator
-    link: https://github.com/graefchen/film
 
   - name: ROT13
     description: 📚 A fun recreational programming task
