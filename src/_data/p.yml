@@ -20,17 +20,25 @@ w:
     link: https://github.com/graefchen/presentation
 
 l:
-  # - name: intaglio
-  #   description: a programming language based on io, lua, ruby...
-  #   link: https://github.com/graefchen/intaglio
+  - name: crawl
+    description: An design document (and reference implementation) for a web scraping language.
+    link: https://github.com/graefchen/crawl
+
+  - name: intaglio
+    description: a programming language based on io, lua, ruby...
+    link: https://github.com/graefchen/intaglio
+
+  - name: k
+    description: ~~~
+    link: https://github.com/graefchen/k
 
   # - name: l
   #   description: An experimental array programming language in lua that compiles to lua.
   #   link: https://github.com/graefchen/l
 
-  # - name: y
-  #   description: An array programming language in c inspired by apl, j and k
-  #   link: https://github.com/graefchen/y
+  - name: y
+    description: An array programming language in c inspired by apl, j and k
+    link: https://github.com/graefchen/y
 
 s:
   - name: config
