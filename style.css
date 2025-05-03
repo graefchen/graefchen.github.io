@@ -165,11 +165,12 @@ img {
 }
 @media (prefers-color-scheme: dark) {
   .logo > #image {
-    opacity: 0.7;
+    filter: grayscale(1);
     transition-duration: 0.5s;
+    transition-timing-function: linear;
   }
   .logo > #image:hover {
     transform: scale(1);
-    opacity: 1;
+    filter: grayscale(0);
   }
 }
