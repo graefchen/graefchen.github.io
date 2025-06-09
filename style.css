@@ -14,52 +14,12 @@ h6 {
   font-weight: 500;
   margin: 0.35rem 0 0.5rem;
 }
-a,
-u {
-  text-decoration: none;
-}
-ul,
-ol {
-  list-style: none;
-  padding-inline-start: 40px;
-}
 h1 {
   font-size: 2rem;
-}
-h2 {
-  font-size: 1.7rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-h4 {
-  font-size: 1.3rem;
-}
-h5 {
-  font-size: 1.2rem;
-}
-h6 {
-  font-size: 1.1rem;
-}
-p {
-  font-size: 1rem;
-}
-small {
-  font-size: 0.8rem;
-}
-p,
-ol,
-li {
-  text-wrap: pretty;
-  line-height: 1.5;
 }
 img {
   max-width: 100%;
   object-fit: cover;
-}
-p {
-  margin: 1rem 0;
-  color: #333;
 }
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -89,36 +49,9 @@ body {
   color: var(--fg);
   background-color: var(--bg);
 }
-a {
-  color: var(--ac);
-}
-a:hover {
-  color: var(--bg);
-  background-color: var(--ac);
-}
 em,
 i {
   color: var(--lg);
-}
-p {
-  color: var(--fg);
-}
-blockquote {
-  margin: 1em 40px;
-  display: block;
-}
-ul {
-  list-style: disc;
-}
-ol {
-  list-style: decimal;
-}
-ul,
-ol {
-  margin: 1rem 0;
-}
-section {
-  margin: 2rem 0;
 }
 img {
   height: 100%;
@@ -128,9 +61,6 @@ img {
   min-height: 100vh;
   min-height: 100svh;
   width: 100%;
-}
-.text-center {
-  text-align: center;
 }
 .center {
   align-items: center;
@@ -159,9 +89,6 @@ img {
 }
 .logo > #image:hover {
   transform: scale(1.1);
-}
-.logo > .display {
-  max-width: 350px;
 }
 @media (prefers-color-scheme: dark) {
   .logo > #image {
