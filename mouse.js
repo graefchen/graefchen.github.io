@@ -23,7 +23,7 @@ if (isTouchDevice()) {
   const posX = innerWidth / 2,
     posY = innerHeight / 2;
 
-  dot.style.transform = `translate(${posX}px,${posY})`;
+  dot.style.transform = `translate(${posX}px,${posY}px)`;
   window.onmousemove = (e) => {
     const interacting = e.target.closest(".interactable") !== null;
 
