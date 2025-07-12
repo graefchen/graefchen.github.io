@@ -69,6 +69,7 @@ body {
   text-wrap: balance;
 }
 .list {
+  margin-bottom: 2rem;
   list-style: none;
   display: flex;
   flex-direction: column;
