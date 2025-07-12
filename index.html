@@ -4,24 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>graef</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
     <meta name="description" content="graef" />
     <link rel="stylesheet" href="/style.css" />
+    <script src="mouse.js" defer></script>
   </head>
 
-  <body>
-    <header class="header full-screen">
-      <div class="logo center">
+  <body class="full-screen">
+    <header class="header">
+      <figure class="logo center">
         <img
-          id="image"
+          class="image interactable"
           alt="The image that graef uses as this profile picture. It is one of their cats called Ticky and she is a black and white bicolored european shorthair. She is eating some grass in the garden while the sun shines on its fur. Her tun sticks completely out and she seems to enjoy it. She is also in a harness so that she can not do naughty things without her owners watching!"
-          width="160"
-          height="160"
+          width="200"
+          height="200"
           src="upload/profile-picture.webp"
         />
-        <h1>graef</h1>
-        <h2><i>computer scientist</i></h2>
-      </div>
+        <figcaption class="description">
+          <h1 class="text-center">graef</h1>
+          <p class="text-center">
+            developer with an interest in web technology
+          </p>
+        </figcaption>
+      </figure>
     </header>
+    <main class="center">
+      <ul class="list">
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/graefchen"
+            class="flex-row link github"
+            >Github</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://graefchen.neocities.org"
+            class="flex-row link neocities"
+            >Neocites</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://grfchn.github.io"
+            class="flex-row link grfchn"
+            >GRFCHN</a
+          >
+        </li>
+      </ul>
+    </main>
+    <!-- The dot - trailer - only works when devide has js acvtive else it is hidden -->
+    <div id="dot"></div>
+    <noscript>
+      <style>
+        body:hover > #dot {
+          opacity: 0;
+        }
+      </style>
+    </noscript>
   </body>
 </html>
