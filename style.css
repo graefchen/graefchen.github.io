@@ -4,8 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1,
-h2 {
+h1 {
   text-wrap: balance;
   font-weight: 500;
   margin: 0.35rem 0 0.5rem;
@@ -13,9 +12,6 @@ h2 {
 h1 {
   color: #e45858;
   font-size: 2rem;
-}
-h2 {
-  font-size: 1.7rem;
 }
 img {
   max-width: 100%;
@@ -107,7 +103,7 @@ body {
   background-color: #0a0a0a;
   color: #fff;
 }
-/* The dot - trailer - styling*/
+/* The dot - trailer - styling */
 #dot {
   --size: 20px;
   height: var(--size);
@@ -115,17 +111,14 @@ body {
   background-color: color-mix(in srgb, #fffa, transparent);
   backdrop-filter: blur(1px) brightness(1.1);
   border-radius: var(--size);
-
   position: fixed;
   top: 0px;
   left: 0px;
   z-index: 10;
-
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
-
 body:hover > #dot {
   opacity: 1;
 }

@@ -13,7 +13,7 @@ const anim = (e, interacting) => {
   const keyframe = {
     transform: `translate(${x}px,${y}px) scale(${interacting ? 6 : 1})`,
   };
-  dot.animate(keyframe, { duration:1000, fill: "forwards" });
+  dot.animate(keyframe, { duration: 1000, fill: "forwards" });
 };
 
 /* When we are on a touch design, we remove the dot, else animate it. */
