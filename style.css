@@ -57,7 +57,7 @@ body {
 }
 .image {
   max-width: 200px;
-  border-radius: 2rem;
+  border-radius: 3rem;
   transform: translateX(-2px) rotate(-5deg);
 }
 .description {
@@ -102,10 +102,4 @@ body {
 .grfchn {
   background-color: #0a0a0a;
   color: #fff;
-}
-.box-shadow {
-  box-shadow: 4px 6px 8px light-dark(#21212180, transparent);
-}
-.text-shadow {
-  text-shadow: 4px 6px 8px light-dark(#21212180, transparent);
 }
