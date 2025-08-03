@@ -103,22 +103,9 @@ body {
   background-color: #0a0a0a;
   color: #fff;
 }
-/* The dot - trailer - styling */
-#dot {
-  --size: 20px;
-  height: var(--size);
-  width: var(--size);
-  background-color: color-mix(in srgb, #fffa, transparent);
-  backdrop-filter: blur(1px) brightness(1.1);
-  border-radius: var(--size);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 10;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.5s ease;
+.box-shadow {
+  box-shadow: 4px 6px 8px light-dark(#21212180, transparent);
 }
-body:hover > #dot {
-  opacity: 1;
+.text-shadow {
+  text-shadow: 4px 6px 8px light-dark(#21212180, transparent);
 }
