@@ -30,11 +30,9 @@ html {
 }
 /* elements */
 body {
-  font-size: 17px;
   padding: 0 1rem;
   color: var(--fg);
   background-color: var(--bg);
-  font-weight: bolder;
 }
 .full-screen {
   min-height: 100vh;
@@ -57,10 +55,13 @@ body {
 }
 .image {
   max-width: 200px;
-  border-radius: 1rem 1rem 1rem 2rem;
-  border-color: #333D;
-  border-width: 10px;
-  border-style: solid;
+  border-radius: 3rem;
+  transform: translateX(-2px) rotate(-5deg);
+  transition: all 200ms ease-in-out;
+}
+.image:hover {
+  transform: translateX(-12px) translateY(-10px) rotate(-5deg);
+  filter: drop-shadow(10px 10px 0px #e45858);
 }
 .description {
   max-width: 300px;
@@ -86,6 +87,7 @@ body {
   padding: 1em;
   text-decoration: none;
   transition: transform 150ms cubic-bezier(0, 0.2, 0.5, 3);
+  font-weight: bolder;
 }
 .link:hover {
   transform: scale(1.02);
