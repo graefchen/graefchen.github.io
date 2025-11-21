@@ -8,3 +8,4 @@ Those include:
 - [Neocites](https://neocities.org/site/graefchen)
 - [GRFCHN](https://grfchn.github.io)
 - my cv (it is small and unfinshed, needs more work)
+- a minimal version of the website
