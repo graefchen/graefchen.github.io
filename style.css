@@ -109,13 +109,13 @@ body {
 .text-center {
   text-align: center;
 }
-.github {
-  background-color: #333;
-  color: #fff;
-}
 .neocities {
   background-color: #f59c32;
   color: #0a0a0a;
+}
+.github {
+  background-color: #333;
+  color: #fff;
 }
 .cv {
   background-color: #e45858;
