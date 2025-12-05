@@ -5,13 +5,18 @@
   box-sizing: border-box;
 }
 h1 {
-  text-wrap: balance;
   font-weight: 500;
   margin: 0.35rem 0 0.5rem;
 }
 h1 {
   color: #e45858;
   font-size: 2rem;
+}
+h1,h2,h3 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
 }
 img {
   max-width: 100%;
