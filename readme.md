@@ -4,8 +4,7 @@ Just my small little website with links to other websites.
 
 Those include:
 
-- [Github](https://github.com/graefchen)
 - [Neocites](https://neocities.org/site/graefchen)
-- [GRFCHN](https://grfchn.github.io)
+- [Github](https://github.com/graefchen)
 - my cv (it is small and unfinshed, needs more work)
 - a minimal version of the website
