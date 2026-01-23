@@ -12,7 +12,9 @@ h1 {
   color: #e45858;
   font-size: 2rem;
 }
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   text-wrap: balance;
 }
 p {
