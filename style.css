@@ -91,6 +91,9 @@ body {
   gap: 1rem;
   width: 15rem;
 }
+.h-resume {
+  width: 60ch;
+}
 .flex-row {
   display: flex;
   flex-direction: row;
