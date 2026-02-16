@@ -91,7 +91,7 @@ body {
   gap: 1rem;
   width: 15rem;
 }
-.h-resume {
+.h-resume, .about {
   width: 60ch;
 }
 .flex-row {
