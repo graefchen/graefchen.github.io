@@ -91,7 +91,8 @@ body {
   gap: 1rem;
   width: 15rem;
 }
-.h-resume, .about {
+.h-resume,
+.about {
   width: 60ch;
 }
 .flex-row {
@@ -129,4 +130,8 @@ body {
 .tilde-town {
   background-color: #ffc0cb;
   color: #0a0a0a;
+}
+.grfchn {
+  background-color: #0a0a0a;
+  color: #fff;
 }
