@@ -50,6 +50,9 @@ body {
   color: var(--fg);
   background-color: var(--bg);
 }
+footer {
+  margin-bottom: 0.5rem;
+}
 .full-screen {
   min-height: 100vh;
   min-height: 100svh;
