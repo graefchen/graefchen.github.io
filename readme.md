@@ -6,3 +6,5 @@ Those include:
 
 - [Neocites](https://neocities.org/site/graefchen)
 - [Github](https://github.com/graefchen)
+- [feels](https://tilde.town/~graefchen/)
+- a minimal version of the website
