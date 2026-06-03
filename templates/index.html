@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block content %}
+<header class="header">
+  <figure class="logo center h-card">
+    <img
+      class="image u-photo"
+      src="assets/profile-picture.webp"
+      alt="The image that graef uses as this profile picture."
+      width="200"
+      height="200"
+    />
+    <figcaption class="description text-center">
+      <h1 class="p-nickname">graefchen</h1>
+      <p>
+        <span class="p-job-title">student</span> with an interest in
+        archaeology, haikus, the small web &amp; human-computer interaction
+      </p>
+    </figcaption>
+  </figure>
+</header>
+
+<main class="center">
+  <ul class="list">
+    {% for link in load_data(path="content/links.json") %}
+    <li>
+      <a href="{{ link.link }}" class="flex-row link {{ link.class }}">
+        {{ link.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+
+<footer class="center">
+  <p class="text-center">created with &#x2665;&#xfe0f; in 2025</p>
+</footer>
+{% endblock content %}

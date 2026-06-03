@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/graefchen",
+        "class": "github"
+    },
+    {
+        "name": "Neocities",
+        "link": "https://graefchen.neocities.org/",
+        "class": "neocities"
+    },
+    {
+        "name": "tilde.town",
+        "link": "https://tilde.town/~graefchen/",
+        "class": "tilde-town"
+    },
+    {
+        "name": "min",
+        "link": "./m",
+        "class": "here"
+    }
+]
