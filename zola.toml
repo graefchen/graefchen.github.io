@@ -1,5 +1,10 @@
 # The URL the site will be built for
 base_url = "https://graefchen.github.io/"
 
+compile_sass = true
+minify_html = true
+generate_sitemap = false
+generate_robots_txt = false
+
 [extra]
 # Put all your custom variables here

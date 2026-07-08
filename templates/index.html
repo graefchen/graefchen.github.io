@@ -1,4 +1,5 @@
 {% extends "base.html" %} {% block content %}
+{# Currently very much in the big rewrite, need to do more! #}
 <header class="header">
   <figure class="logo center h-card">
     <img
@@ -19,18 +20,28 @@
 </header>
 
 <main class="center">
+  {# TODO: (2026-06-27) Swap the following links out so they stay in the foooter #}
   <ul class="list">
-    {% for link in load_data(path="content/links.json") %}
     <li>
-      <a href="{{ link.link }}" class="flex-row link {{ link.class }}">
-        {{ link.name }}
+      <a href="https://github.com/graefchen" class="flex-row link github">
+        Github
       </a>
     </li>
-    {% endfor %}
+    <li>
+      <a href="https://graefchen.neocities.org/" class="flex-row link neocities">
+        Neocities
+      </a>
+    </li>
+    <li>
+      <a href="https://tilde.town/~graefchen/" class="flex-row link tilde-town">
+        tilde.town
+      </a>
+    </li>
+    <li>
+      <a href="./m" class="flex-row link here">
+        min
+      </a>
+    </li>
   </ul>
 </main>
-
-<footer class="center">
-  <p class="text-center">created with &#x2665;&#xfe0f; in 2025</p>
-</footer>
 {% endblock content %}
