@@ -1,5 +1,6 @@
 +++
 title = "Storing Data"
+draft = true
 +++
 
 As an archaology stundent and someone who has an Bachelors in Computing Science
