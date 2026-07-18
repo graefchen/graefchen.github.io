@@ -20,13 +20,33 @@
 
 <main class="center">
   <ul class="list">
-    {% for link in load_data(path="content/links.json") %}
     <li>
-      <a href="{{ link.link }}" class="flex-row link {{ link.class }}">
-        {{ link.name }}
+      <a href="https://github.com/graefchen" class="flex-row link github">
+        Github
       </a>
     </li>
-    {% endfor %}
+    <li>
+      <a href="https://graefchen.neocities.org/" class="flex-row link neocities">
+        Neocities
+      </a>
+    </li>
+    <li>
+      <a href="https://tilde.town/~graefchen/" class="flex-row link tilde-town">
+        tilde.town
+      </a>
+    </li>
+    <li>
+      <a href="https://graefchen.github.io/dunkel.css/" class="flex-row link here">
+        dunkel.css
+      </a>
+    </li>
+    <!-- need to add
+    <li>
+      <a href="https://graefchen.itch.io" class="flex-row link itch-io">
+        tilde.town
+      </a>
+    </li>
+    -->
   </ul>
 </main>
 
