@@ -89,13 +89,15 @@ body {
   align-items: center;
   & > .list > li {
     /* note: the "both" is very very very important here */
-    animation: stagger 600ms calc(50ms * (sibling-index())) both;
+    animation: stagger 1s 0s both;
+    @supports (sibling-index()) {
+      animation: stagger 600ms calc(50ms * (sibling-index())) both;
+    }
 
     &:nth-child(n) {
-      --cos: calc(cos(sibling-index() * 180deg));
       /* rotate instead of transform: rotate */
-      rotate: calc((5deg * var(--cos)));
-      translate: calc(var(--cos)* 10px) 0px;
+      rotate: calc(5deg * cos(sibling-index() * 180deg));
+      translate: calc(tan(sibling-index()) * 10px);
     }
     /* previous version, looks better... but i can change late, is also
      * not able to add arbitary more childs
