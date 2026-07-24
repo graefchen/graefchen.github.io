@@ -165,5 +165,6 @@ body {
   color: #0a0a0a;
 }
 footer {
+  animation: stagger 1s both;
   padding: 0.5rem;
 }
