@@ -88,7 +88,7 @@ body {
   align-items: center;
   & > .list > li {
     &:nth-child(n) {
-      translate: calc(tan(sibling-index()) * 2px);
+      translate: calc(5px * cos(sibling-index() * 90deg));
     }
   }
 }
@@ -118,6 +118,10 @@ body {
 .text-center {
   text-align: center;
 }
+.here {
+  background-color: #e45858;
+  color: #0a0a0a;
+}
 .neocities {
   background-color: #f59c32;
   color: #0a0a0a;
@@ -136,10 +140,6 @@ body {
 }
 .dunkel {
   background-color: #fab96b;
-  color: #0a0a0a;
-}
-.here {
-  background-color: #e45858;
   color: #0a0a0a;
 }
 .itch-io {
