@@ -86,11 +86,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  & > .list > li {
-    &:nth-child(n) {
-      translate: calc(5px * cos(sibling-index() * 90deg));
-    }
-  }
 }
 .list {
   margin-bottom: 2rem;
@@ -99,6 +94,11 @@ body {
   flex-direction: column;
   gap: 1rem;
   width: 15rem;
+  & > li {
+    &:nth-child(n) {
+      translate: calc(5px * cos(sibling-index() * 90deg));
+    }
+  }
 }
 .flex-row {
   display: flex;
@@ -134,16 +134,8 @@ body {
   background-color: #ffc0cb;
   color: #0a0a0a;
 }
-.here-to-town {
-  background: linear-gradient(90deg, #e45858, #ffc0cb);
-  color: #0a0a0a;
-}
 .dunkel {
-  background-color: #fab96b;
-  color: #0a0a0a;
-}
-.itch-io {
-  background-color: #fa5c5c;
+  background: #fab96b;
   color: #0a0a0a;
 }
 footer {
