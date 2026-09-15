@@ -7,23 +7,9 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
     <meta name="description" content="graef" />
     <link rel="stylesheet" href="/style.css" />
-    <script src="mouse.js" defer></script>
   </head>
 
   <body class="full-screen">
     {% block content %} {% endblock content %}
-    <!--
-    The dot - trailer - only works when device has js active, else it is hidden
-    aka. progressive enhancement
-    (2026-07-30) need to check if this is correct
-    -->
-    <div id="dot"></div>
-    <noscript>
-      <style>
-        body:hover > #dot {
-          opacity: 0;
-        }
-      </style>
-    </noscript>
   </body>
 </html>
