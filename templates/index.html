@@ -1,3 +1,13 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+
+{% block content %}
+{# yes, indeed, it is called Lothric #}
+{# changing the section to "correctly" display the blog #}
+{% set section = get_section(path="blog/_index.md") %}
+<ul>
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock content %}
 

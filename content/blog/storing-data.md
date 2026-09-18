@@ -14,7 +14,7 @@ readable, like an [QR code][].
   [hard disk drive]: https://en.wikipedia.org/wiki/Hard_disk_drive "Hard disk drives..."
   [floppy disk]: https://en.wikipedia.org/wiki/Floppy_disk "floppy disks..."
   [QR code]: https://en.wikipedia.org/wiki/QR_code "QR code..."
-    
+
 
 Asside the QR code there are some other, way olders, ways to store data on non
 digital media and those are [paper tape][] and [punched cards][].
