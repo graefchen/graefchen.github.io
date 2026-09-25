@@ -1,5 +1,0 @@
-# The URL the site will be built for
-base_url = "https://graefchen.github.io/"
-
-[extra]
-# Put all your custom variables here
