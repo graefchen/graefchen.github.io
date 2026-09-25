@@ -1,8 +1,20 @@
 .header {
-  .navbar {
-    .link img {
-      width: 2rem;
-      height: 2rem;
-    }
-  }
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.left {
+			.link .small-logo {
+			width: 2rem;
+			height: 2rem;
+			// transform: rotate(5deg);
+			}
+		}
+		.right {
+			display: flex;
+			flex-direction: row;
+			align-content: flex-end;
+			gap: 0.5rem;
+		}
+	}
 }

@@ -1,23 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>graef</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
-    <meta name="description" content="graef" />
-    <link rel="stylesheet" href="/style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{% block title %}{% endblock title %}graefchen</title>
+		<link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+		<meta name="description" content="graef" />
+		<link rel="stylesheet" href="/style.css" />
+	</head>
 
-  <body>
-    {% include "header.html" %}
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<div class="left">
+					<a href="/" class="link">
+						<img class="small-logo" src="/assets/profile-picture.webp" inline>
+					</a>
+				</div>
+				<div class="right">
+					<a href="./about">about</a>
+				</div>
+			</nav>
+		</header>
 
-    <main>
-      {% block content %}
 
-      {% endblock content %}
-    </main>
+		<main>
+		{% block content %}
 
-    {% include "footer.html" %}
-  </body>
+		{% endblock content %}
+		</main>
+
+		<footer class="center footer">
+			{# here is the footer, a very important part #}
+			{# <p class="text-center">created with &#x2665;&#xfe0f; in 2025</p> #}
+			<nav class="nav">
+				<ul class="list">
+					<li class="github">
+						<a href="https://github.com/graefchen">
+							Github
+						</a>
+					</li>
+					<li class="neocities">
+						<a href="https://graefchen.neocities.org/">
+							Neocities
+						</a>
+					</li>
+					<li class="tilde-town">
+						<a href="https://tilde.town/~graefchen/">
+							tilde.town
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
 </html>

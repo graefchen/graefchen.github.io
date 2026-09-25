@@ -1,6 +1,6 @@
 +++
 title = "why i use c over rust, why it is bad, and why it is perfectly fine"
-draft = false
+draft = true
 +++
 
 <!--
