@@ -42,7 +42,7 @@ html {
 :root {
   color-scheme: light dark;
   --fg: light-dark(#0a0a0a, #fff);
-  --bg: light-dark(#fff, #212121);
+  --bg: light-dark(#fff, #0a0a0a);
 }
 /* elements */
 body {
@@ -58,6 +58,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .header {
   display: flex;
@@ -69,14 +70,24 @@ body {
   margin: 2rem 0rem;
 }
 .image {
-  max-width: 200px;
-  border-radius: 3rem;
-  transform: translateX(-2px) rotate(-5deg);
-  transition: all 200ms ease-in-out;
+  max-width: 160px;
+  border-radius: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transition-duration: 200ms;
 }
 .image:hover {
-  transform: translateX(-12px) translateY(-10px) rotate(-5deg);
-  filter: drop-shadow(10px 10px 0px #e45858);
+  transform: scale(1.1);
+}
+@media(prefers-color-scheme: dark) {
+  .image {
+    box-shadow: 0 0px 0px;
+    opacity: 0.7;
+    transition-duration: .5s;
+  }
+  .image:hover {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .description {
   max-width: 300px;
