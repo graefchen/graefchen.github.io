@@ -129,25 +129,9 @@ body {
 .text-center {
   text-align: center;
 }
-.here {
-  background-color: #e45858;
-  color: #0a0a0a;
-}
-.neocities {
-  background-color: #f59c32;
-  color: #0a0a0a;
-}
 .github {
   background-color: #333;
   color: #fff;
-}
-.tilde-town {
-  background-color: #ffc0cb;
-  color: #0a0a0a;
-}
-.dunkel {
-  background: #fab96b;
-  color: #0a0a0a;
 }
 footer {
   padding: 0.5rem;
