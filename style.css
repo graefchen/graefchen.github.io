@@ -24,7 +24,6 @@ img {
   max-width: 100%;
   object-fit: cover;
   height: 100%;
-  width: 100%;
 }
 html {
   font-family:
@@ -40,9 +39,9 @@ html {
     sans-serif;
 }
 :root {
-  color-scheme: light dark;
-  --fg: light-dark(#0a0a0a, #fff);
-  --bg: light-dark(#fff, #0a0a0a);
+  color-scheme: light;
+  --fg: #0a0a0a;
+  --bg: #f7f5f0;
 }
 /* elements */
 body {
@@ -71,23 +70,6 @@ body {
 }
 .image {
   max-width: 160px;
-  border-radius: 32px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  transition-duration: 200ms;
-}
-.image:hover {
-  transform: scale(1.1);
-}
-@media(prefers-color-scheme: dark) {
-  .image {
-    box-shadow: 0 0px 0px;
-    opacity: 0.7;
-    transition-duration: .5s;
-  }
-  .image:hover {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
 .description {
   max-width: 300px;
@@ -105,11 +87,6 @@ body {
   flex-direction: column;
   gap: 1rem;
   width: 15rem;
-  & > li {
-    &:nth-child(n) {
-      translate: calc(5px * cos(sibling-index() * 90deg));
-    }
-  }
 }
 .flex-row {
   display: flex;
@@ -117,7 +94,6 @@ body {
 }
 .link {
   gap: 0.5rem;
-  border-radius: 1rem;
   padding: 1em;
   text-decoration: none;
   transition: transform 150ms cubic-bezier(0, 0.2, 0.5, 3);
@@ -129,9 +105,17 @@ body {
 .text-center {
   text-align: center;
 }
+.neocities {
+  background-color: #f59c32;
+  color: #0a0a0a;
+}
 .github {
   background-color: #333;
   color: #fff;
+}
+.tilde-town {
+  background-color: #ffc0cb;
+  color: #0a0a0a;
 }
 footer {
   padding: 0.5rem;
