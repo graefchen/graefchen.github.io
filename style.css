@@ -56,6 +56,10 @@ body {
   background-image: radial-gradient(circle at 0.5cm 0.5cm, grey 1px, transparent 0);
   background-size: 1cm 1cm;
 }
+body > * {
+  background-color: var(--bg);
+  width: 300px;
+}
 .full-screen {
   min-height: 100vh;
   min-height: 100svh;
