@@ -6,54 +6,92 @@
     <title>graef</title>
     <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
     <meta name="description" content="graef" />
-    <link rel="stylesheet" href="/style.css" />
+    <style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root {
+  color-scheme: light dark;
+  --fg: light-dark(#0a0a0a, #fafafe);
+  --bg: light-dark(#f7f5f0, #0a0a0a);
+}
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  color: var(--fg);
+  background-color: var(--bg);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 16px 32px;
+  max-width: 400px;
+  flex-grow: 1;
+}
+header, footer {
+  margin-top: auto;
+}
+img {
+  border-radius: 8px;
+}
+h1 {
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  font-weight: 400;
+  white-space: nowrap;
+}
+h2 {
+  letter-spacing: 0.21em;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+}
+header h1 {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+section h2 {
+  margin-bottom: 16px;
+}
+    </style>
   </head>
 
-  <body class="full-screen center">
+  <body>
+    <main>
+      <header>
+        <h1>
+          <span>🙥</span><!-- Heavy South West Pointing Bud -->
+          <img
+            src="assets/profile-picture.webp"
+            alt="The image that graef uses as this profile picture."
+            width="96"
+            height="96"
+          />
+          <span>🙧</span><!-- Heavy South East Pointing Bud -->
+        </h1>
+      </header>
 
-    <header class="header">
-      <figure class="logo center">
-        <img
-          class="image"
-          src="assets/profile-picture.webp"
-          alt="The image that graef uses as this profile picture."
-          width="160px"
-          height="160px"
-        />
-        <figcaption class="description text-center">
-          <h1>graefchen</h1>
-          <p>
-            student with an interest in
-            archaeology, haikus, the small web, simple living,
-            human-computer interaction &amp; <i>much more</i>
-          </p>
-        </figcaption>
-      </figure>
-    </header>
+      <section>
+        <h2>graefchen</h2>
+        <p>
+          student with an interest in
+          archaeology, haikus, the small web, simple living,
+          human-computer interaction &amp; <i>much more</i>
+        </p>
+      </section>
 
-    <main class="folder">
-      <ul class="list">
-        <li>
-          <a href="https://github.com/graefchen" class="flex-row link github">
-            Github
-          </a>
-        </li>
-        <li>
-          <a href="https://graefchen.neocities.org/" class="flex-row link neocities">
-            Neocities
-          </a>
-        </li>
-        <li>
-          <a href="https://tilde.town/~graefchen/" class="flex-row link tilde-town">
-            tilde.town
-          </a>
-        </li>
-      </ul>
+      <footer>
+        <p>Ultra-low consumption website. Created in MMXXV.</p>
+      </footer>
     </main>
-
-    <footer class="center footer">
-      <p class="text-center">created with &#x2665;&#xfe0f; in 2025</p>
-    </footer>
 
   </body>
 </html>
