@@ -13,6 +13,7 @@
   --fg: light-dark(#0a0a0a, #fafafe);
   --bg: light-dark(#f7f5f0, #0a0a0a);
   /* further variables */
+  --list-gap: 12px;
 }
 html {
   font-family: sans-serif;
@@ -53,10 +54,9 @@ h2 {
   font-weight: 600;
   white-space: nowrap;
 }
-header h1 {
+header img {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  gap: 1rem;
+  grid-template-columns: max-content;
   align-items: center;
 }
 section h2 {
@@ -66,13 +66,13 @@ ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: var(--list-gap);
   align-items: center;
   justify-content: center;
 }
 li:not(:last-child)::after {
-  content: "/";
-  margin-left: 12px;
+  content: "-";
+  margin-left: var(--list-gap);
 }
     </style>
   </head>
@@ -80,27 +80,21 @@ li:not(:last-child)::after {
   <body>
     <main>
       <header>
-        <h1>
-          <span>🙥</span><!-- Heavy South West Pointing Bud -->
-          <img
-            src="assets/profile-picture.webp"
-            alt="The image that graef uses as this profile picture."
-            width="96"
-            height="96"
-          />
-          <span>🙧</span><!-- Heavy South East Pointing Bud -->
-        </h1>
+        <img
+          src="assets/profile-picture.webp"
+          alt="The image that graef uses as this profile picture."
+          width="96"
+          height="96"
+        />
       </header>
 
       <section>
-        <h2>interested</h2>
-        <ul>
-          <li>archaeology</li>
-          <li>haikus</li>
-          <li>small web</li>
-          <li>simple living</li>
-          <li>human-computer interaction</li>
-        </ul>
+        <h2>greafchen</h2>
+        <p>
+          I am an archaology and computer linguistic student with an bachelor in
+          conputing science and am interesetind in creating video games, the
+          small web, simple living and much much more...
+        </P>
       </section>
 
       <section>
@@ -113,7 +107,7 @@ li:not(:last-child)::after {
       </section>
 
       <footer>
-        <p>Ultra-low consumption website. Created in MMXXV.</p>
+        <p>Ultra-low consumption website. Created in 2025.</p>
       </footer>
     </main>
 
