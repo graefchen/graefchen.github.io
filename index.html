@@ -12,15 +12,16 @@
   color-scheme: light dark;
   --fg: light-dark(#0a0a0a, #fafafe);
   --bg: light-dark(#f7f5f0, #0a0a0a);
+  --txt: #999;
   /* further variables */
   --list-gap: 12px;
 }
 html {
-  font-family: sans-serif;
+  font-family: "M Plus 2", sans-serif;
   text-align: center;
 }
 body {
-  color: var(--fg);
+  color: var(--txt);
   background-color: var(--bg);
   min-height: 100dvh;
   display: flex;
@@ -49,6 +50,7 @@ h1 {
   white-space: nowrap;
 }
 h2 {
+  color: var(--fg);
   letter-spacing: 0.21em;
   text-transform: uppercase;
   font-weight: 600;
@@ -70,10 +72,6 @@ ul {
   align-items: center;
   justify-content: center;
 }
-li:not(:last-child)::after {
-  content: "-";
-  margin-left: var(--list-gap);
-}
     </style>
   </head>
 
@@ -89,21 +87,12 @@ li:not(:last-child)::after {
       </header>
 
       <section>
-        <h2>greafchen</h2>
+        <h2>graefchen</h2>
         <p>
           I am an archaology and computer linguistic student with an bachelor in
           conputing science and am interesetind in creating video games, the
           small web, simple living and much much more...
         </P>
-      </section>
-
-      <section>
-        <h2>where to find</h2>
-        <ul>
-          <li><a href="https://github.com/graefchen">Github</a></li>
-          <li><a href="https://graefchen.neocities.org">Neocities</a></li>
-          <li><a href="https://tilde.town/~graefchen/">tilde.town</a></li>
-        </ul>
       </section>
 
       <footer>
